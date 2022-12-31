@@ -2,7 +2,6 @@ function TABLE(props) {
   const grandTotal = props.tableData.reduce((accumulator, material) => {
     return accumulator + material.totalPrice;
   }, 0);
-  git;
 
   return (
     <div className="w-full flex-col flex justify-center items-center h-screen">
